@@ -40,3 +40,12 @@ PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
 # Thermal HAL
 PRODUCT_COPY_FILES += \
     device/google/muskie/thermal_info_config.json:$(TARGET_COPY_OUT_VENDOR)/etc/thermal_info_config.json
+
+ifeq ($(TARGET_PREBUILT_KERNEL),)
+    LOCAL_KERNEL := device/google/walleye-kernel/Image.lz4-dtb
+else
+    LOCAL_KERNEL := $(TARGET_PREBUILT_KERNEL)
+endif
+
+PRODUCT_COPY_FILES += \
+    $(LOCAL_KERNEL):kernel
