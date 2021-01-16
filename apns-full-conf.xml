@@ -16080,7 +16080,6 @@
   />
 
   <apn carrier="Cellcom"
-      carrier_id="1802"
       mcc="310"
       mnc="600"
       apn="internet"
@@ -16093,7 +16092,6 @@
   />
 
   <apn carrier="Cellcom IMS"
-      carrier_id="1802"
       mcc="310"
       mnc="600"
       apn="IMS"
@@ -16110,7 +16108,6 @@
   />
 
   <apn carrier="Cellcom FOTA"
-      carrier_id="1802"
       mcc="310"
       mnc="600"
       apn="VZWADMIN"
@@ -16127,7 +16124,6 @@
   />
 
   <apn carrier="Cellcom"
-      carrier_id="1802"
       mcc="310"
       mnc="600"
       apn="VZWINTERNET"
@@ -41776,7 +41772,6 @@
   />
 
   <apn carrier="Quam_WEB"
-      carrier_id="2249"
       mcc="722"
       mnc="01"
       apn="internet.movil"
@@ -41789,7 +41784,6 @@
   />
 
   <apn carrier="Quam_MMS"
-      carrier_id="2249"
       mcc="722"
       mnc="01"
       apn="mms.movil"
@@ -41805,7 +41799,6 @@
   />
 
   <apn carrier="Quam_WEB"
-      carrier_id="2249"
       mcc="722"
       mnc="01"
       apn="internet.movil"
@@ -41818,7 +41811,6 @@
   />
 
   <apn carrier="Quam_MMS"
-      carrier_id="2249"
       mcc="722"
       mnc="01"
       apn="mms.movil"
