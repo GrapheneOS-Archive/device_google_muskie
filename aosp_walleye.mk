@@ -43,7 +43,7 @@ PRODUCT_RESTRICT_VENDOR_FILES := owner
 PRODUCT_PACKAGES += com.android.vndk.current.on_vendor
 
 PRODUCT_MANUFACTURER := Google
-PRODUCT_BRAND := Android
+PRODUCT_BRAND := google
 PRODUCT_NAME := aosp_walleye
 PRODUCT_DEVICE := walleye
 PRODUCT_MODEL := Pixel 2
